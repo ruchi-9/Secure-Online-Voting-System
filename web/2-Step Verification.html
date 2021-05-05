@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Reset Password</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+         <style>
+              
+         </style>
+   </head>
+     <body>
+         <div><h1 style="text-align:center;  background-color: #ccccff; margin-top: 0px; padding-top: 25px; padding-bottom: 25px;"> Welcome To Online Voting System</h1></div>
+         <div class="container">
+	<div class="row">
+		<div class="col-md-4 col-md-offset-4">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="text-center">
+                  <h3><i class="fa fa-lock fa-4x"></i></h3>
+                  <h2 class="text-center">2 Step Verifaction</h2>
+                  <p>Enter Your OTP For validation</p>
+                  <div class="panel-body">
+                     <form  autocomplete="off" class="form" action="ResetPassword" method="post">
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                          <input id="email" name="otp" placeholder="Enert OTP" class="form-control"  type="email" required="">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <input class="btn btn-lg btn-primary btn-block" value="Submit OTP" type="submit">
+                      </div>
+                    </form>
+    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+	</div>
+</div>
+     </body>
+</html>

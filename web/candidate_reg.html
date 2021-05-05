@@ -1,0 +1,70 @@
+
+<html>
+    <head>
+        <title>VOTER REGISTER</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="javascript/validation.js" type="text/javascript"></script>
+     <style>
+            
+          body {
+  margin: 0;
+  padding: 0;
+  background-color: #17a2b8;
+  height: 100vh;
+}
+
+#Register .container #login-row #login-column #login-box {
+  margin-top: -8px;
+  max-width: 600px;
+  height: 520px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+#Register .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#Register .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+        </style>
+     </head>
+    <div><h1 style="text-align:center;  background-color: #ccccff; padding-top: 25px; padding-bottom: 25px;"> CANDIDATE REGISTERATION</h1></div>
+  <div id="Register">
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                      <form id="login-form" class="form" action="CandidateRegisteration" method="post">
+                    <div class="form-group">
+                                <label for="username" class="text-info">Name:</label><br>
+                                <input type="text" placeholder="Enter UserName" name="name" id="id"  class="form-control" required>
+                            </div>
+                        <div class="form-group">
+                                <label for="EMAIL" class="text-info">EMAIL:</label><br>
+                                <input type="email" placeholder="Enter Email" name="Email" id="id"  class="form-control" required>
+                            </div>
+                        <div class="form-group">
+                                <label for="PHONE_NO" class="text-info">PHONE NO:</label><br>
+                                <input onkeydown="validateNumber(event);" maxlength="10" placeholder="Enter Phone no" name="PHONENO" id="id"  class="form-control" required>
+                            </div>
+                         <div class="form-group">
+                             <label class="text-info">GENDER </label>
+                            <td>         <select name="gender" required  style="height:35px ; border-radius: 5px">
+                                         <option value="" selected>------Select Gender--------</option>
+                                         <option value="male">MALE</option>
+                                         <option value="female">FEMALE</option>
+                                         <option value="others">OTHERS</option>
+                                         </select>
+                         </div>
+                         <div class="form-group">
+                                <input type="submit" name="submit" class="btn btn-info btn-md" value="SUBMIT">
+                              
+                            </div>
+                    </form>
+  </div>
+                </div>
+            </div>
+        </div>
+        </div>  
+</html>

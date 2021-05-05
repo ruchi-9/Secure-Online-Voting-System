@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Voter Home </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          
+       
+    </head>
+    <body>
+        <div class="container">
+            
+            <h1 style="text-align: center">Welcome To Voter Home Page</h1> 
+            <hr>
+            <div>
+                <table border="3">
+                        <thead>
+                            <tr>
+                                <th>Name : </th>
+                                <th>RUCHI CHOUDHARY</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>PHone</td>
+                                <td>9521188480</td>
+                            </tr>
+                            <tr>
+                                <td>email_id</td>
+                                <td>ruchichoudhary0684@gmail.com</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                    <hr>
+                    <form action="voting" method="post">
+                        <input name="voterid" hidden="" value="123">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>candidate name: </th>
+                                <th>vote</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            <tr>
+                                <td>rahul  </td>
+                                <td><input type="radio" name="voteid"  value="abc" checked></td>
+                            </tr>
+                            <tr>
+                                <td>ruchi  </td>
+                                <td><input type="radio" name="voteid"  value="111"></td>
+                                
+                            </tr>
+                            <tr>
+                                <td>choudhary </td>
+                                <td><input type="radio" name="voteid"  value="222"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <button type="submit">Vote</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </form>
+                    <script>
+                        for(i=0;i<2;i++)
+                            document.write("<tbody>"+"<tr>"+"<td>"+"ruchi choudhary"+"</td>"+"</tr>"+" <tr>"+
+                   "<td>"+"rahul"+"</td>"+
+                                "<td>"+"<input type=""radio"" name=""vodeid"">"+"</td>"+
+                            "</tr>"+"</tbody>");
+                        </script>
+            </div>
+        </div>
+    </body>
+</html>
