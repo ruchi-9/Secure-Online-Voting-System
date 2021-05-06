@@ -8,6 +8,7 @@ Have three domain
 - Voting Candidate
 
 ## Features
+- Instead of Storing password directly to the database, I have used the MD5 hashing with salt(random value).
 - Candidate Registartion is done by the admin. Voter can register itself, a email is sent after registartion to verify the voter.
 - Voter get the OTP every time  whenever they want to login. 
 - A voter can only try 3 incorrect password after that its login is locked and they need to reset the password.
