@@ -42,3 +42,7 @@ Have three domain
  ![text](https://github.com/ruchi-9/Secure-Online-Voting-System/blob/master/Screenshots/vote%20count.PNG)
  
  
+ ## Admin Login Details
+ Username: admin9 
+ Password: 9
+ 
